@@ -790,7 +790,7 @@ position :relative;
         width: 80%;
     }
     .seccion-7{
-     display:none
+        display:none;
     }
     .seccion-8{
         grid-column-start:3 ;
