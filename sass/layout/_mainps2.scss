@@ -1,0 +1,10 @@
+.bodyps2{
+    background-image:  url("../assets/images/backgroundps2.jpg");
+    @include main-grid;
+}
+.ps2:hover{
+    filter:blur(4px);
+}
+.ps2:active{
+    filter:invert(2)
+}

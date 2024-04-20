@@ -1,0 +1,35 @@
+@mixin letraNav{
+    color: #ffffff;
+    font-family: "Inter-SemiBoldItalic", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration:none ; 
+} 
+.maquina-del-tiempo {
+    color: rgba(0, 0, 0, 0.97);
+    text-align: left;
+    font-family: "Inter-SemiBoldItalic", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background: #0722f2;
+    font-style: italic;
+    border-top-right-radius: 50%;
+    position: sticky;
+    width: 334.44px;
+    height: 55.07px;
+    transform-origin: 0 0;
+}
+.parrafoP {
+    color: #f4f1f1;
+    text-align:justify;
+    font-family: "Inter-SemiBoldItalic", sans-serif;
+    font-size: 15px;
+    font-display:initial ;
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    left:300px;
+    width: 523px;
+    height: 150px;
+}

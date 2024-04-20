@@ -1,0 +1,10 @@
+.bodyps3{
+    background-image:  url("../assets/images/backgroundps3.jpg");
+    @include main-grid;
+}
+.ps3:hover{
+    filter:blur(4px);
+}
+.ps3:active{
+    filter:invert(2)
+}

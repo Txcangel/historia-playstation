@@ -1,0 +1,26 @@
+@mixin main-grid{
+    background-size:fill;
+    background-repeat: repeat-y;
+    display: grid;
+    width:100%;
+    height:100%;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+@mixin iconNav{
+    background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+    border-radius: 50%;
+    width: 144px;
+    height: 111px;
+}
+@mixin columnasF{
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    color: white
+}

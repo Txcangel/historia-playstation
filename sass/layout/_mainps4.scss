@@ -1,0 +1,10 @@
+.bodyps4{
+    background-image:  url("../assets/images/backgroundps4.jpg");
+    @include main-grid;
+}
+.ps4:hover{
+    filter:blur(4px);
+}
+.ps4:active{
+    filter:invert(2)
+}

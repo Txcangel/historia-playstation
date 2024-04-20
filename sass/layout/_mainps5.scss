@@ -1,0 +1,10 @@
+.bodyps5{
+    background-image:  url("../assets/images/backgroundps5.jpg");
+    @include main-grid;
+}
+.ps5:hover{
+    filter:blur(4px);
+}
+.ps5:active{
+    filter:invert(2)
+}

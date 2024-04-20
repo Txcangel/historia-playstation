@@ -1,0 +1,76 @@
+.pageFooter{
+    grid-area: footer;
+    display: flex;
+    width: 1480px;
+    height: 290px;
+
+}
+.navItemFooter * {
+    box-sizing: flex;
+}
+.navItemFooter{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Inter-SemiBoldItalic", sans-serif;
+    font-size: 0.694rem;;
+    text-decoration-line: none;
+    font-style: italic;
+    position: column; 
+    width: 18px;
+    height: 20px;
+    box-shadow: none;
+}
+.list-footer{
+    list-style: none;
+
+}
+.cajas *{
+    box-sizing: flex;
+}
+.cajas{
+    
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(139,0,175,1) 62%, rgba(4,4,93,1) 93%, rgba(134,4,203,1) 100%);
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Inter-SemiBoldItalic", sans-serif;
+    text-decoration:none;
+    font-size: 12px;
+    font-style: italic;
+
+}
+.cajas a:hover{
+    color:yellow;
+}
+.cajas a:active{
+    color:map-get($colores,colorT);
+}
+.icon *{
+    border-style: border-box;
+}
+.icon {
+    width: 41px;
+    height: 41px;
+    position: relative;
+    overflow: visible;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.icon:hover{
+    filter:invert(2);
+}
+.columna1 a{
+    @include columnasF;
+}
+.columna2 a{
+    @include columnasF;
+}
+.columna3 a{
+    @include columnasF;
+}
