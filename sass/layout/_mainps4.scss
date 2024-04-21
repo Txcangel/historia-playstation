@@ -1,6 +1,8 @@
 .bodyps4{
     background-image:  url("../assets/images/backgroundps4.jpg");
+    background-size:contain;
     @include main-grid;
+    
 }
 .ps4:hover{
     filter:blur(4px);
