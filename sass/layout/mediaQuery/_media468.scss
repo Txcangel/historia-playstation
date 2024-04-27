@@ -1,7 +1,5 @@
 @media (max-width:468px){
-    .bodyps1{
-        object-fit:auto;
-    }
+
     .navC{
         height:auto;
         width: 425px;
@@ -56,22 +54,24 @@
         grid-column-end: 1;
         grid-row-start:  1 ;
         grid-row-end:1 ;
+        height:auto;
+        width: 410px;
     }
     .seccion-1 .img{
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
     .seccion-2{
         grid-column-start:1 ;
         grid-column-end: 1;
         grid-row-start:  2 ;
         grid-row-end:2 ;
+        height:auto;
+        width: 410px;
     }
     .seccion-2 .parrafoP{
-        justify-content:left;
         font-size: medium;
-        height: 60%;
-        width: 60%;
+    
     }
     .seccion-3{
         grid-column-start:1 ;
@@ -80,21 +80,23 @@
         grid-row-end:3 ;
     }
     .seccion-3 .videoyt{
-        width: auto ;
-        height:auto;
-        justify-items: stretch;
+        height:350px;
+        width: 410px;
+        
     }
     .seccion-4{
         grid-column-start:1 ;
         grid-column-end: 1;
         grid-row-start:  4 ;
         grid-row-end:4 ;
-        justify-content:flex-start;
+        height:auto;
+        width: 425px;
+        
     }
     .seccion-4 .parrafoP{
         font-size: medium;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height:80%;
     }
     .seccion-4 .img{
         display: none;
@@ -104,6 +106,8 @@
             grid-column-end: 1;
             grid-row-start:  5 ;
             grid-row-end:5 ;
+            height:auto;
+            width: 410px;
     }
     .seccion-5 .parrafoP{
         font-size: medium;
@@ -111,14 +115,16 @@
         height:80%;
     }
     .seccion-5 img{
-        height: 50%;
-        width:50% ;
+        height: 100%;
+        width:100% ;
     }
     .seccion-6{
         grid-column-start:1 ;
         grid-column-end: 1;
         grid-row-start:  6 ;
-        grid-row-end:6 ;   
+        grid-row-end:6 ;  
+        height:auto;
+        width: 410px; 
     }
     .seccion-6 .parrafoP{
         font-size: medium
@@ -127,17 +133,21 @@
         grid-column-start:1 ;
         grid-column-end: 1;
         grid-row-start:  7 ;
-        grid-row-end:7 ; 
+        grid-row-end:7 ;
+        height:auto;
+        width: 410px; 
     }
     .seccion-8{
         grid-column-start:1 ;
         grid-column-end: 1;
         grid-row-start:  8 ;
         grid-row-end:8 ; 
+        height:auto;
+        width: 425px;
 }
 .seccion-8 .videoyt{
-    width: auto;
-    height: auto;
+    height:340px;
+    width: 400px;
 }
 
     .cajas{
