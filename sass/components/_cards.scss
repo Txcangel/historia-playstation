@@ -10,8 +10,8 @@
     display: flex;
     background-color: #1e1d1d; }
 .seccion-1{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     grid-column-start:1 ;
     grid-column-end:2 ;
     grid-row-start: 1;
@@ -19,8 +19,8 @@
 }
 
 .seccion-1 img{
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 70%;
     overflow: hidden;
     margin: 20px;
     transition: 0.5s;
@@ -45,7 +45,7 @@
     all:inherit;
     height:100%;
     width: 100%;
-    font-size: larger;
+    font-size: xx-large;
     color:white;
     word-wrap: normal;
     margin: 0 auto; 
@@ -89,7 +89,7 @@
     width: auto;
     overflow-wrap:break-word;
     align-items:center;
-    font-size: larger;
+    font-size: xx-large;
     word-wrap: normal;
 }
 .seccion-5{
@@ -105,7 +105,7 @@
     width: auto;
     overflow-wrap:break-word;
     align-items:center;
-    font-size: larger;
+    font-size: xx-large;
     word-wrap: normal;
 }
 .seccion-5 img{
@@ -132,7 +132,7 @@
     height:100%;
     width: 100%;
     align-items:center;
-    font-size: medium;
+    font-size: xx-large;
     overflow-wrap:break-word;
     word-wrap: normal;
 }
@@ -161,7 +161,7 @@
     height:100%;
     width: 100%;
     align-items:center;
-    font-size: medium;
+    font-size: xx-large;
     overflow-wrap:break-word;
     word-wrap: normal;
 }

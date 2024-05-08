@@ -1,6 +1,6 @@
 .bodyps3{
     background-image:  url("../assets/images/backgroundps3.jpg");
-    background-size:contain;
+    background-size:cover;
     @include main-grid;
 }
 .ps3:hover{

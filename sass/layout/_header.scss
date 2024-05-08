@@ -1,6 +1,7 @@
 
 .navC {
-    display: flex;
+    grid-area: header;
+    display:flex;
     justify-content: space-between;
     list-style: none;
     .letrasnav{
@@ -44,7 +45,6 @@
     @include iconNav;
 }
 .navBar{
-    grid-area: header;
     .cintillo{
         width: 100%;
         height: auto;
