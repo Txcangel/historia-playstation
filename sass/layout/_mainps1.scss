@@ -1,6 +1,6 @@
 .bodyps1{
-    background-image:  url("../assets/images/ps1background.jpg");
-    background-size:contain;
+    background-image:  url("../assets/images/ps1.jpg");
+    background-size:cover;
     @include main-grid;
 }  
 .ps1:hover{
@@ -11,11 +11,8 @@
 }
 .pagP{
     background-image: url("../assets/images/background.jpg");
-    background-size:100%;
     background-repeat: repeat;
     display: grid;
-    width:100%;
-    height:100%;
     grid-template-columns: 1fr;
     grid-template-rows:1fr auto;
     grid-template-areas:
@@ -42,14 +39,14 @@
     grid-row-end:1 ;
 }
 .seccion-2 .parrafoP{
-    all:inherit;
     height:100%;
     width: 100%;
     font-size: larger;
     color:white;
-    word-wrap: normal;
-    margin: 0 auto; 
-    overflow-wrap:break-word;
+}
+.seccion2 .img{
+    width: 50%;
+    height: 50%;
 }
 .seccion-2 .parrafoP:hover{
     color:red

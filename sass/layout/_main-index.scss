@@ -1,7 +1,6 @@
 .ps1 * {
     box-sizing:border-box;
-    height: fit-content;
-    width: fit-content;
+
 }
 .pagP{
     background-image: url("../assets/images/background.jpg");
@@ -78,14 +77,14 @@
     transform:scale(1.5);
 }
 .seccion-4 .parrafoP{
-    all: inherit;
-    color:white;
-    height:auto;
-    width: auto;
-    overflow-wrap:break-word;
-    align-items:center;
+    all:inherit;
+    height:100%;
+    width: 100%;
     font-size: larger;
+    color:white;
     word-wrap: normal;
+    margin: 0 auto; 
+    overflow-wrap:break-word;;
 }
 .seccion-5{
     grid-column-start:1 ;

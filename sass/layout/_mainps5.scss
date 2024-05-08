@@ -1,6 +1,7 @@
 .bodyps5{
     background-image:  url("../assets/images/backgroundps5.jpg");
-    background-size:contain;
+    background-size:cover;
+    background-repeat: repeat-y;
     @include main-grid;
 }
 .ps5:hover{

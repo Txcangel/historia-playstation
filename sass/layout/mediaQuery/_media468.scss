@@ -2,12 +2,12 @@
 
     .navC{
         height:auto;
-        width: 425px;
+        width: 360px;
         justify-content:left;
     }
     .cintillo{
         height:auto;
-        width: 425px;
+        width: 350px;
     }
     .main-grid{
         width: auto;
@@ -48,14 +48,13 @@
         font-weight:large;
     }
     .seccion-1{
-        height: 30%;
-        width: 30%;
+
         grid-column-start:1 ;
         grid-column-end: 1;
         grid-row-start:  1 ;
         grid-row-end:1 ;
         height:auto;
-        width: 410px;
+        width: 390px;
     }
     .seccion-1 .img{
         width: 100%;
@@ -80,8 +79,8 @@
         grid-row-end:3 ;
     }
     .seccion-3 .videoyt{
-        height:350px;
-        width: 410px;
+        height:300px;
+        width: 350px;
         
     }
     .seccion-4{
@@ -89,7 +88,6 @@
         grid-column-end: 1;
         grid-row-start:  4 ;
         grid-row-end:4 ;
-        height:auto;
         width: 425px;
         
     }
@@ -123,8 +121,8 @@
         grid-column-end: 1;
         grid-row-start:  6 ;
         grid-row-end:6 ;  
-        height:auto;
-        width: 410px; 
+        height:300px;
+        width: 350px;
     }
     .seccion-6 .parrafoP{
         font-size: medium
@@ -144,10 +142,11 @@
         grid-row-end:8 ; 
         height:auto;
         width: 425px;
+        align-items: center;
 }
 .seccion-8 .videoyt{
-    height:340px;
-    width: 400px;
+    height:300px;
+    width: 350px;
 }
 
     .cajas{
@@ -162,7 +161,7 @@
         text-decoration:none;
         font-size: 7px;
         font-style: italic;
-        width: 425px;
-        height: auto;
+        width: 360px;
+        height: 300px;
     }
 }
